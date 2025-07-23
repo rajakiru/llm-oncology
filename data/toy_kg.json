@@ -1,0 +1,42 @@
+[
+  {
+    "source": "HER2-positive breast cancer",
+    "relation": "treated_by",
+    "target": "Trastuzumab"
+  },
+  {
+    "source": "BRCA1 mutation",
+    "relation": "resistance_to",
+    "target": "PARP inhibitors"
+  },
+  {
+    "source": "Stage IV NSCLC",
+    "relation": "eligible_for",
+    "target": "Checkpoint inhibitors"
+  },
+  {
+    "source": "EGFR mutation",
+    "relation": "associated_with",
+    "target": "non-small cell lung cancer"
+  },
+  {
+    "source": "KRAS G12C mutation",
+    "relation": "targeted_by",
+    "target": "Sotorasib"
+  },
+  {
+    "source": "PD-L1 expression",
+    "relation": "predicts_response_to",
+    "target": "Pembrolizumab"
+  },
+  {
+    "source": "Triple-negative breast cancer",
+    "relation": "poor_response_to",
+    "target": "Hormone therapy"
+  },
+  {
+    "source": "BRAF V600E mutation",
+    "relation": "targeted_by",
+    "target": "Vemurafenib"
+  }
+]

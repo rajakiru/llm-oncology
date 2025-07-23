@@ -1,0 +1,26 @@
+[
+  { "source": "Non-Small Cell Lung Cancer Stage I", "relation": "is_a_type_of", "target": "Non-Small Cell Lung Cancer" },
+  { "source": "Surgical Resection", "relation": "is_a_form_of", "target": "Local Therapy" },
+  { "source": "Stereotactic Ablative Radiotherapy (SABR/SBRT)", "relation": "is_a_form_of", "target": "Local Therapy" },
+
+  { "source": "Surgical Resection", "relation": "is_initial_treatment_for", "target": "Non-Small Cell Lung Cancer Stage I" },
+  { "source": "Surgical Resection", "relation": "recommended_for_patients_who_are", "target": "Medically Operable" },
+  { "source": "Lobectomy", "relation": "is_preferred_surgical_approach_for", "target": "Non-Small Cell Lung Cancer Stage I" },
+  { "source": "Segmentectomy or Wedge Resection", "relation": "is_alternative_surgical_approach_for", "target": "Non-Small Cell Lung Cancer Stage I" },
+  { "source": "Segmentectomy or Wedge Resection", "relation": "considered_for_patients_with", "target": "Small tumors or compromised lung function" },
+  { "source": "Surgical Resection", "relation": "aims_to_achieve", "target": "Local Control" },
+
+  { "source": "Stereotactic Ablative Radiotherapy (SABR/SBRT)", "relation": "is_initial_treatment_for", "target": "Non-Small Cell Lung Cancer Stage I" },
+  { "source": "Stereotactic Ablative Radiotherapy (SABR/SBRT)", "relation": "recommended_for_patients_who_are", "target": "Medically Inoperable" },
+  { "source": "SABR", "relation": "aims_to_achieve", "target": "Local Control" },
+
+  { "source": "Adjuvant Chemotherapy", "relation": "may_be_considered_after", "target": "Surgical Resection" },
+  { "source": "Adjuvant Chemotherapy", "relation": "consideration_depends_on", "target": "High-risk features (e.g., larger tumor size)" },
+
+  { "source": "Non-Small Cell Lung Cancer", "relation": "diagnosis_requires", "target": "Biopsy" },
+  { "source": "Non-Small Cell Lung Cancer", "relation": "requires_testing_for", "target": "Molecular Markers (e.g., EGFR, ALK, PD-L1)" },
+  { "source": "Molecular Markers", "relation": "guide_targeted_therapy_selection_for", "target": "Advanced NSCLC (and sometimes adjuvant)" },
+
+  { "source": "Local Control", "relation": "is_a_primary_goal_of", "target": "Non-Small Cell Lung Cancer Stage I Treatment" },
+  { "source": "Multidisciplinary Evaluation", "relation": "is_recommended_for", "target": "All Non-Small Cell Lung Cancer Patients" }
+]
