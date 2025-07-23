@@ -1,0 +1,19 @@
+Non-Small Cell Lung Cancer Stage I is a type of Non-Small Cell Lung Cancer.
+Surgical Resection is a form of Local Therapy.
+Stereotactic Ablative Radiotherapy (SABR/SBRT) is a form of Local Therapy.
+Surgical Resection is the initial treatment for Non-Small Cell Lung Cancer Stage I.
+Surgical Resection is recommended for patients who are Medically Operable.
+Lobectomy is the preferred surgical approach for Non-Small Cell Lung Cancer Stage I.
+Segmentectomy or Wedge Resection is an alternative surgical approach for Non-Small Cell Lung Cancer Stage I.
+Segmentectomy or Wedge Resection is considered for patients with Small tumors or compromised lung function.
+Surgical Resection aims to achieve Local Control.
+Stereotactic Ablative Radiotherapy (SABR/SBRT) is the initial treatment for Non-Small Cell Lung Cancer Stage I.
+Stereotactic Ablative Radiotherapy (SABR/SBRT) is recommended for patients who are Medically Inoperable.
+SABR aims to achieve Local Control.
+Adjuvant Chemotherapy may be considered after Surgical Resection.
+Consideration for Adjuvant Chemotherapy depends on High-risk features (e.g., larger tumor size).
+Diagnosis of Non-Small Cell Lung Cancer requires a Biopsy.
+Non-Small Cell Lung Cancer requires testing for Molecular Markers (e.g., EGFR, ALK, PD-L1).
+Molecular Markers guide targeted therapy selection for Advanced NSCLC (and sometimes adjuvant).
+Local Control is a primary goal of Non-Small Cell Lung Cancer Stage I Treatment.
+Multidisciplinary Evaluation is recommended for All Non-Small Cell Lung Cancer Patients.
