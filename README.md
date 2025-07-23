@@ -1,18 +1,12 @@
 # LLM-Guided Clinical Decision Support via Oncology-Specific Knowledge Graphs and Multimodal Patient Data
 
-## Motivation & Problem Statement
-
 Oncologists today face **information overload** — from constantly evolving treatment guidelines to complex, heterogeneous patient data (EHRs, pathology reports, genomics). Making timely and effective treatment decisions requires integrating **structured data** (e.g., genomic profiles) with **unstructured data** (e.g., clinical notes), and aligning those insights with evidence-based protocols.
 
 Traditional rule-based clinical decision support (CDS) systems lack the flexibility and contextual reasoning required to handle such complexity.
 
----
-
-## Project Goal
+## Goal
 
 Develop an **interactive, explainable decision-support agent** powered by **Large Language Models (LLMs)**, grounded in **domain-specific knowledge graphs** and **real patient data**, to assist oncologists in generating high-quality, rationale-driven treatment recommendations.
-
----
 
 ## System Architecture
 
@@ -37,8 +31,6 @@ Develop an **interactive, explainable decision-support agent** powered by **Larg
 - **Input:** Diagnosis, age, stage, prior treatment
 - **Output:** Treatment options + rationale, clinical trial eligibility, next steps
 
----
-
 ## Dataset Plan
 
 - **MIMIC-IV:** De-identified EHRs for real-world patient summaries
@@ -46,7 +38,6 @@ Develop an **interactive, explainable decision-support agent** powered by **Larg
 - **NCCN Guidelines:** As supervision and rule templates
 - **(Optional)** QA Benchmarks: OncoQA, RadQA, MedQA
 
----
 
 ##  Evaluation Metrics
 
@@ -55,37 +46,14 @@ Develop an **interactive, explainable decision-support agent** powered by **Larg
 - **Knowledge grounding rate:** % of outputs matching KG facts
 - **Human evaluation:** Physician Likert-scale scoring
 
----
-
-##  Novelty & Contribution
-
-- **Hybrid neuro-symbolic design:** Merges LLM flexibility with KG grounding
-- **Explainability by design:** Outputs are traceable to structured facts
-- **Modularity:** Can be fine-tuned or adapted across cancer subtypes
-
----
-
-
-## 📚 Potential Publication Venues
-
-- **Clinical AI Journals:** JAMIA, NPJ Digital Medicine, Nature Scientific Reports
-- **ML Conferences:** AAAI, NeurIPS (Clinical ML Workshops)
-- **ML Foundations:** ICLR, EMNLP (for KG + LLM synergy)
-
----
-
-## 👨‍🏫 Supervised by
+### Supervised by
 
 **Amir Barati Farimani**  
 Associate Professor, Carnegie Mellon University  
-Website: [https://www.meche.engineering.cmu.edu/directory/bio.php?userid=abaratif](https://www.meche.engineering.cmu.edu/directory/bio.php?userid=abaratif)
 
----
-
-## 👤 Maintained by
+### Maintained by
 
 **Kiru**  
 MS Student, Carnegie Mellon University  
-Focus: AI for Clinical Reasoning, ML Engineering
+Focus: AI/ ML Engineering
 
----
